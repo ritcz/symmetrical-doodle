@@ -1,5 +1,6 @@
 export const meals = [
   {
+    id: 1,
     title: "Chicken Marsala",
     category: "Pasta",
     description:
@@ -7,6 +8,7 @@ export const meals = [
     price: 14.85,
   },
   {
+    id: 2,
     title: "Chicken Picatta",
     category: "Pasta",
     description:
@@ -14,6 +16,7 @@ export const meals = [
     price: 14.85,
   },
   {
+    id: 3,
     title: "Chicken French",
     category: "Pasta",
     description:
@@ -21,6 +24,7 @@ export const meals = [
     price: 14.85,
   },
   {
+    id: 4,
     title: "Chicken Parmesan",
     category: "Pasta",
     description:
@@ -28,6 +32,7 @@ export const meals = [
     price: 14.85,
   },
   {
+    id: 5,
     title: "Chicken Bruschetta",
     category: "Pasta",
     description:
@@ -35,6 +40,7 @@ export const meals = [
     price: "14.85",
   },
   {
+    id: 6,
     title: "Steakhouse Braised Tenderloin Tips",
     category: "Fan Favorites",
     description:
@@ -42,6 +48,7 @@ export const meals = [
     price: 16.75,
   },
   {
+    id: 7,
     title: "Salmon with Pineapple Salsa",
     category: "Fan Favorites",
     description:
@@ -49,6 +56,7 @@ export const meals = [
     price: 18.0,
   },
   {
+    id: 8,
     title: "Ziti with Meatballs or Italian Sausage",
     category: "Pasta",
     description:
@@ -56,6 +64,7 @@ export const meals = [
     price: 13.15,
   },
   {
+    id: 9,
     title: "Stuffed Shells (Vegetarian)",
     category: "Pasta",
     description:
@@ -63,6 +72,7 @@ export const meals = [
     price: 12.85,
   },
   {
+    id: 10,
     title: "Mushroom Bolognese (Vegetarian)",
     category: "Pasta",
     description:
@@ -70,6 +80,7 @@ export const meals = [
     price: 13.15,
   },
   {
+    id: 11,
     title: "Grilled Vegetable Napoleon (Vegetarian)",
     category: "Fan Favorites",
     description:
@@ -77,6 +88,7 @@ export const meals = [
     price: 14.15,
   },
   {
+    id: 12,
     title: "Southwest Cobb Salad",
     category: "Salad",
     description:
@@ -84,6 +96,7 @@ export const meals = [
     price: 16.4,
   },
   {
+    id: 13,
     title: "Chilled Grilled Lemon Chicken with Mixed Greens",
     category: "Salad",
     description:
@@ -91,6 +104,7 @@ export const meals = [
     price: 14.3,
   },
   {
+    id: 14,
     title: "Chilled Marinated Flank Steak with Mixed Greens",
     category: "Salad",
     description:
@@ -98,6 +112,7 @@ export const meals = [
     price: 17.4,
   },
   {
+    id: 15,
     title: "Chilled Grilled Portobello with Mixed Greens (Vegetarian)",
     category: "Salad",
     description:
@@ -105,10 +120,20 @@ export const meals = [
     price: 14.3,
   },
   {
+    id: 16,
     title: "Greek Pasta Salad",
     category: "Salad",
     description:
       "Bow tie pasta tossed in a light Greek dressing, with fresh basil, feta cheese, olives, sun-dried tomatoes, and baby spinach. Topped with your choice of chilled grilled chicken breast, or Portobello mushroom.",
     price: 14.3,
+  },
+];
+
+export const categories = [
+  { id: 1, title: "Pasta" },
+  { id: 2, title: "Salad" },
+  {
+    id: 3,
+    title: "Fan Favorites",
   },
 ];
